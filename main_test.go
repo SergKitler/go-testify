@@ -72,8 +72,8 @@ func TestMainHandlerWhenCountMoreThanTotal(t *testing.T) {
 	require.NotEmpty(t, responseRecorder.Body)
 
 	listCafe := responseRecorder.Body.String()
-	expected_slice := strings.Split(listCafe, ",")
-	expected := len(expected_slice)
+	expectedSlice := strings.Split(listCafe, ",")
+	expectedCount := len(expectedSlice)
 
-	assert.Equal(t, totalCount, expected)
+	assert.Equal(t, totalCount, expectedCount)
 }
