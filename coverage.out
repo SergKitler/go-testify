@@ -1,0 +1,12 @@
+mode: set
+go-testify/main.go:13.59,15.20 2 1
+go-testify/main.go:15.20,19.3 3 1
+go-testify/main.go:21.2,22.16 2 1
+go-testify/main.go:22.16,26.3 3 1
+go-testify/main.go:28.2,31.9 3 1
+go-testify/main.go:31.9,35.3 3 1
+go-testify/main.go:37.2,37.23 1 1
+go-testify/main.go:37.23,39.3 1 1
+go-testify/main.go:41.2,44.25 3 1
+go-testify/main.go:47.13,50.16 3 0
+go-testify/main.go:50.16,51.13 1 0
